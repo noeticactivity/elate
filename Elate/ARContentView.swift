@@ -23,7 +23,7 @@ struct ARViewContainer: UIViewRepresentable {
         // Load the "Box" scene from the "Experience" Reality File
 //        let boxAnchor = try! Experience.loadBox()
 //        let boxAnchor = try! Test2.loadScene()
-        let boxAnchor = try! User2.loadScene()
+        let boxAnchor = try! User3.loadScene()
         
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)

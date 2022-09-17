@@ -21,6 +21,7 @@
 		CF0678F128D640E000224F80 /* ElevatorVideoSplashScreen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF0678F028D640E000224F80 /* ElevatorVideoSplashScreen.mp4 */; };
 		CF0678F328D6425100224F80 /* user_1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = CF0678F228D6425100224F80 /* user_1.rcproject */; };
 		CF0678F528D6435B00224F80 /* user2.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = CF0678F428D6435B00224F80 /* user2.rcproject */; };
+		CF0678F728D656C200224F80 /* user3.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = CF0678F628D656C200224F80 /* user3.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		CF0678F028D640E000224F80 /* ElevatorVideoSplashScreen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ElevatorVideoSplashScreen.mp4; sourceTree = "<group>"; };
 		CF0678F228D6425100224F80 /* user_1.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = user_1.rcproject; sourceTree = "<group>"; };
 		CF0678F428D6435B00224F80 /* user2.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = user2.rcproject; sourceTree = "<group>"; };
+		CF0678F628D656C200224F80 /* user3.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = user3.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				CF0678EE28D640CF00224F80 /* LookingVideoView.swift */,
 				CF0678F228D6425100224F80 /* user_1.rcproject */,
 				CF0678F428D6435B00224F80 /* user2.rcproject */,
+				CF0678F628D656C200224F80 /* user3.rcproject */,
 				CF0678EC28D63BD600224F80 /* test_2.rcproject */,
 				CF0678D428D6382200224F80 /* Experience.rcproject */,
 				CF0678F028D640E000224F80 /* ElevatorVideoSplashScreen.mp4 */,
@@ -179,6 +182,7 @@
 				CF0678EF28D640CF00224F80 /* LookingVideoView.swift in Sources */,
 				CF0678ED28D63BD600224F80 /* test_2.rcproject in Sources */,
 				CF0678D528D6382200224F80 /* Experience.rcproject in Sources */,
+				CF0678F728D656C200224F80 /* user3.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
