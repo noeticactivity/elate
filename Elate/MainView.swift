@@ -14,6 +14,13 @@ struct VanillaView: View {
     }
 }
 
+struct CoffeeOfferView: View {
+    var body: some View {
+        Image("coffeePage")
+            .resizable()
+    }
+}
+
 struct MainView: View {
     var body: some View {
         TabView {
@@ -21,7 +28,6 @@ struct MainView: View {
                 .tabItem {
                     Label("Menu", systemImage: "list.dash")
                 }
-
             ARContentView()
                 .tabItem {
                     Label("Explorer", systemImage: "square.and.pencil")
@@ -33,5 +39,6 @@ struct MainView: View {
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
         MainView()
+        CoffeeOfferView()
     }
 }

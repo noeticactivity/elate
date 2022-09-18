@@ -13,7 +13,6 @@
 		CF0678D728D6382200224F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0678D628D6382200224F80 /* Assets.xcassets */; };
 		CF0678DA28D6382200224F80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0678D928D6382200224F80 /* Preview Assets.xcassets */; };
 		CF0678E728D639B600224F80 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0678E228D639B600224F80 /* Stylesheet.swift */; };
-		CF0678E828D639B600224F80 /* HashTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0678E328D639B600224F80 /* HashTagView.swift */; };
 		CF0678EA28D639B600224F80 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0678E528D639B600224F80 /* MainView.swift */; };
 		CF0678EB28D639B600224F80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0678E628D639B600224F80 /* ContentView.swift */; };
 		CF0678ED28D63BD600224F80 /* test_2.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = CF0678EC28D63BD600224F80 /* test_2.rcproject */; };
@@ -22,6 +21,7 @@
 		CF0678F328D6425100224F80 /* user_1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = CF0678F228D6425100224F80 /* user_1.rcproject */; };
 		CF0678F528D6435B00224F80 /* user2.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = CF0678F428D6435B00224F80 /* user2.rcproject */; };
 		CF0678F728D656C200224F80 /* user3.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = CF0678F628D656C200224F80 /* user3.rcproject */; };
+		CF06791828D672D800224F80 /* FinalUser.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = CF06791728D672D800224F80 /* FinalUser.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,6 @@
 		CF0678D628D6382200224F80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF0678D928D6382200224F80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF0678E228D639B600224F80 /* Stylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stylesheet.swift; sourceTree = "<group>"; };
-		CF0678E328D639B600224F80 /* HashTagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashTagView.swift; sourceTree = "<group>"; };
 		CF0678E528D639B600224F80 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CF0678E628D639B600224F80 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF0678EC28D63BD600224F80 /* test_2.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = test_2.rcproject; sourceTree = "<group>"; };
@@ -41,6 +40,7 @@
 		CF0678F228D6425100224F80 /* user_1.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = user_1.rcproject; sourceTree = "<group>"; };
 		CF0678F428D6435B00224F80 /* user2.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = user2.rcproject; sourceTree = "<group>"; };
 		CF0678F628D656C200224F80 /* user3.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = user3.rcproject; sourceTree = "<group>"; };
+		CF06791728D672D800224F80 /* FinalUser.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = FinalUser.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,6 @@
 				CF0678D028D6382200224F80 /* AppDelegate.swift */,
 				CF0678D228D6382200224F80 /* ARContentView.swift */,
 				CF0678E628D639B600224F80 /* ContentView.swift */,
-				CF0678E328D639B600224F80 /* HashTagView.swift */,
 				CF0678E528D639B600224F80 /* MainView.swift */,
 				CF0678E228D639B600224F80 /* Stylesheet.swift */,
 				CF0678EE28D640CF00224F80 /* LookingVideoView.swift */,
@@ -85,6 +84,7 @@
 				CF0678F628D656C200224F80 /* user3.rcproject */,
 				CF0678EC28D63BD600224F80 /* test_2.rcproject */,
 				CF0678D428D6382200224F80 /* Experience.rcproject */,
+				CF06791728D672D800224F80 /* FinalUser.rcproject */,
 				CF0678F028D640E000224F80 /* ElevatorVideoSplashScreen.mp4 */,
 				CF0678D628D6382200224F80 /* Assets.xcassets */,
 				CF0678D828D6382200224F80 /* Preview Content */,
@@ -173,7 +173,7 @@
 			files = (
 				CF0678EA28D639B600224F80 /* MainView.swift in Sources */,
 				CF0678D328D6382200224F80 /* ARContentView.swift in Sources */,
-				CF0678E828D639B600224F80 /* HashTagView.swift in Sources */,
+				CF06791828D672D800224F80 /* FinalUser.rcproject in Sources */,
 				CF0678D128D6382200224F80 /* AppDelegate.swift in Sources */,
 				CF0678EB28D639B600224F80 /* ContentView.swift in Sources */,
 				CF0678F528D6435B00224F80 /* user2.rcproject in Sources */,

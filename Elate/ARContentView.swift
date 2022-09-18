@@ -9,8 +9,21 @@ import SwiftUI
 import RealityKit
 
 struct ARContentView : View {
+    @State var showSecondView = false
+
     var body: some View {
-        ARViewContainer().edgesIgnoringSafeArea(.all)
+        Group {
+            if showSecondView {
+                CoffeeOfferView()
+            } else {
+                ARViewContainer().edgesIgnoringSafeArea(.all)
+            }
+        }
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 15) {
+                self.showSecondView = true
+            }
+        }
     }
 }
 
@@ -23,7 +36,7 @@ struct ARViewContainer: UIViewRepresentable {
         // Load the "Box" scene from the "Experience" Reality File
 //        let boxAnchor = try! Experience.loadBox()
 //        let boxAnchor = try! Test2.loadScene()
-        let boxAnchor = try! User3.loadScene()
+        let boxAnchor = try! FinalUser.loadScene()
         
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)
